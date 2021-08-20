@@ -60,8 +60,8 @@
 
 ;; Full adder
 (define full-adder
-  (lambda (p q)
+  (lambda (x y z)
     (list
-     (xor (xor x y) z) (o (a x y) (a (xor a b) c))
+     's (xor (xor x y) z) 'c (o (a x y) (a (xor x y) z))
     )
   )
